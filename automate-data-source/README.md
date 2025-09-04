@@ -27,9 +27,6 @@ bash run.sh --help
 # Get earthquakes from the past year with magnitude 5+
 bash run.sh --start 2024-09-04 --end 2025-09-04 --mag 5.0
 
-# Get earthquakes near San Francisco
-bash run.sh --loc sf
-
 # Get earthquakes with custom location
 bash run.sh --lat 37.7749 --lon -122.4194 --radius 100
 ```

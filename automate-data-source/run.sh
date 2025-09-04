@@ -23,7 +23,6 @@ show_usage() {
   echo "  ./run.sh                                  # Run with defaults"
   echo "  ./run.sh --start 2023-01-01 --end 2023-12-31  # Custom date range"
   echo "  ./run.sh --mag 5.0 --limit 100           # Magnitude ≥ 5.0, max 100 results"
-  echo "  ./run.sh --loc sf                         # Earthquakes near San Francisco"
   echo "  ./run.sh --lat 37.7749 --lon -122.4194 --radius 100  # Custom location"
 }
 
