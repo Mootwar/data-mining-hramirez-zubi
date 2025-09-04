@@ -48,6 +48,7 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# By request from the professor and I agree We shoulnt store the actual data just the tools 
-# I belive by adding .csv files should be good 
+#ignore data files and virtual environment
 *.csv
+.venv/
+data/
