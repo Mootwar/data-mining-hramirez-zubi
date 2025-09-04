@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-# filepath: /home/hector/github/data-mining-hramirez-zubi/automate-data-source/run.sh
-
 # Exit on error
 set -e
 

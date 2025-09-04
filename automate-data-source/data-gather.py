@@ -148,6 +148,7 @@ def convert_to_csv(data, output_file):
 
 def main():
     parser = argparse.ArgumentParser(description="Fetch earthquake data from USGS API")
+    # Basic parameters
     parser.add_argument("-s", "--start", help="Start date (YYYY-MM-DD), defaults to 30 days ago")
     parser.add_argument("-e", "--end", help="End date (YYYY-MM-DD), defaults to today")
     parser.add_argument("-m", "--magnitude", type=float, default=4.5, help="Minimum magnitude (default: 4.5)")
