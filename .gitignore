@@ -51,4 +51,4 @@ rsconnect/
 #ignore data files and virtual environment
 *.csv
 .venv/
-data/
+# data/
