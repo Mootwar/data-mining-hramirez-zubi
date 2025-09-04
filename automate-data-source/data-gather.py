@@ -14,3 +14,14 @@ import requests
 import pandas as pd
 
 #configure logging
+logging.basicConfig(
+    level    = logging.INFO,
+    format   = '%(asctime)s - %(levelname)s - %(message)s',
+    handlers = [
+        logging.FileHandler('earthquake_data_gather.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+API_URL = "https://earthquake.usgs.gov/fdsnws/event/1/query"
